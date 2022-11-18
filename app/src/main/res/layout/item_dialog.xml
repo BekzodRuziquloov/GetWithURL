@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To do add"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edt_sarlavha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sarlavha"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_matn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matn"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_muddat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Muddat"
+        android:textColorHint="@color/black" />
+
+    <Spinner
+        android:entries="@array/spinner_holat"
+        android:id="@+id/spinner_holat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        android:text="Saqlash"
+        android:backgroundTint="@color/teal_200"
+        />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_holat">
+        <item>Yangi</item>
+        <item>Bajarilmoqda</item>
+        <item>Tugallangan</item>
+    </string-array>
+</resources>
